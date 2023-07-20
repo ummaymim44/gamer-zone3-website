@@ -1,0 +1,433 @@
+
+
+body{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+
+}
+header div{
+    float: left;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.sec1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.itemone, .imgone{
+    width: 50%;
+}
+
+.itemone{
+    margin-left: 230px;
+    margin-bottom: 120px;
+
+}
+
+.imgone{
+    padding-right: 160px;
+
+}
+.imgone img{
+    width: 900px;
+    max-width: 110%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.itemone h2{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.itemone h1{
+    font-family: Work Sans;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.btm1{
+
+    color: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+
+    display: inline-flex;
+padding: 15px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+
+.btm2{
+
+    color: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+
+    display: inline-flex;
+padding: 15px 20px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+
+}
+
+
+
+
+
+
+/*online gaming*/
+
+
+.sec2{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+img{
+    max-width: 85%;
+    display: block;
+    
+    
+}
+
+
+.card{
+    width: 350px;
+    background: radial-gradient(#111 50%, #000 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+.card img{
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+
+
+}
+.card:hover img{
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3;
+}
+
+.descrip{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.descrip h3{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 0 20px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+
+}
+.descrip a{
+    color: #fff;
+    background: #34aff3;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.descrip a:hover{
+    background: #0e6290;
+
+}
+
+.card:hover .descrip h3{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+    
+.card:hover .descrip a{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+.main{
+    display: flex;
+   justify-content: center;
+   
+   margin: 10px;
+   
+}
+
+
+
+
+
+
+/*Section 3*/
+
+.sec3{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.sec3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play{
+
+    margin-left: 200px;
+    margin-bottom: 120px;
+
+
+}
+
+
+
+.img1{
+    width: 90%;
+    height: auto;
+
+}
+
+.img2{
+    width: 30%;
+    height: 200px;
+    padding: 0px 70px 90px 400px;
+    margin-bottom: 50px;
+    
+
+}
+
+
+
+.play1{
+
+    font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+/*sec5*/
+
+.sec5{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius:  50%;
+
+}
+
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+.footerheader{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerheader h2{
+    color: white;
+}
+
+
+ @media screen and  (max-width: 576){
+    .footernav ul{
+        flex-direction: column;
+
+    }
+
+    .footernav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+
+
+ }
+    
+ 
+
+
